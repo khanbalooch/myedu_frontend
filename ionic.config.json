@@ -1,0 +1,7 @@
+{
+  "name": "myedu_frontend",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
