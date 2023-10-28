@@ -4,7 +4,8 @@
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
+  --ncle-color-main: #AB95F9;
+  --ion-color-primary: #AB95F9;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
@@ -236,6 +237,9 @@
 }
 
 html {
+  ion-button {
+    text-transform: none;
+  }
   /* 
    * For more information on dynamic font scaling, visit the documentation:
    * https://ionicframework.com/docs/layout/dynamic-font-scaling

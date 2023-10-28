@@ -1,0 +1,39 @@
+.footer {
+    padding: 80px 60px;
+    background-color: white;
+
+    // © 2023 Relume. All rights reserved.
+    color: black;
+    font-size: 14px;
+    font-family: Nunito;
+    font-weight: 400;
+    line-height: 21px;
+    word-wrap: break-word
+}
+
+.links {
+    border-top: 1px solid #000;
+}
+
+.rowFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.flexItem {
+    margin-right: 30px;
+}
+
+.underlined-link {
+    text-decoration: underline;
+    color: black !important;
+    // :focus {
+    //     color: blue;
+    //  } /* Change the color as needed */
+  }
+
+  .noLeftPadding {
+    padding-left: 0px;
+  }

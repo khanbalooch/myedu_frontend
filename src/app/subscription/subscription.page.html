@@ -1,0 +1,34 @@
+<app-header></app-header>
+<ion-content [fullscreen]="true" >
+  <section class="backgroundContent">
+      <ion-grid class="summaryContainer">
+        <ion-row>
+          <ion-col class="subscribeSection" size-md="8" size-xs="12">
+            <ion-row>
+              <ion-text class="title">Subscribe</ion-text>
+            </ion-row>
+            <ion-row>
+              <ion-text>to our Monthly Surprise Box</ion-text>
+            </ion-row>
+            <ion-row>
+              <ion-text class="secondTitle">Contact Information</ion-text>
+            </ion-row>
+            <ion-row>
+              <!-- <ion-item> -->
+                <ion-input class="customInput" label="Your Name" labelPlacement="stacked" placeholder="e.g Osama Alshathri"></ion-input>
+              <!-- </ion-item> -->
+            </ion-row>
+            <ion-row>
+              <app-button content="Continue to Payment" ></app-button>
+            </ion-row>
+          </ion-col>
+          <ion-col class="summarySection" size-md="4" size-xs="12">
+            Summary Section
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+  </section>
+  <section>
+    <app-footer></app-footer>
+  </section>
+</ion-content>

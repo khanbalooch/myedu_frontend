@@ -1,0 +1,43 @@
+.backgroundContent {
+    background: url('../../assets/images/subscription_background.jpg') no-repeat center center fixed;
+}
+
+.summaryContainer {
+    margin: 100px 64px;
+    padding: 0px 80px;
+}
+.subscribeSection {
+    padding: 32px;
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+}
+.summarySection {
+    padding: 32px;
+    background-color: #838383;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.title {
+    // Subscribe
+    color: #202124;
+    font-size: 24px;
+    font-family: Nunito;
+    font-weight: 700;
+    line-height: 32px;
+    word-wrap: break-word
+}
+.secondTitle {
+    // Contact Information
+color: #202124;
+font-size: 20px;
+font-family: Nunito;
+font-weight: 700;
+line-height: 32px;
+word-wrap: break-word
+}
+
+.customInput {
+    border: 1px solid #667085; /* Border color */
+    border-radius: 10px; /* Border radius, adjust as needed */
+    padding: 8px ; /* Adjust padding as needed */
+}
